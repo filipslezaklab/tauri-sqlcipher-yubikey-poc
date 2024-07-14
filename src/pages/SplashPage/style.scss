@@ -1,0 +1,14 @@
+#splash-page {
+  width: 100%;
+  min-height: 100dvh;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 64px;
+    font-weight: 700;
+  }
+}

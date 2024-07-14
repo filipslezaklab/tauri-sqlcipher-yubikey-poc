@@ -1,0 +1,22 @@
+#db-page {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5rem 2rem 2rem;
+  column-gap: 25px;
+
+
+  &>* {
+    width: 100%;
+  }
+
+  &>.controls {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 30px;
+  }
+}

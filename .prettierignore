@@ -1,0 +1,4 @@
+src/i18n/*.tsx
+src/i18n/*.ts
+reports/**
+/reports
